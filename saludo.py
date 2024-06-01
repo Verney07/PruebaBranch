@@ -12,6 +12,15 @@ greet("Verney")
 print("We will add a new function.")
 
 
+def suma(num1, num2):
+    "Function that adds two numbers."
+    resultado = num1+num2
+    return resultado
+
+
+print(suma(1, 5))
+
+
 def resta(d1, d2):
     """Code that substract two numbers"""
     substract = d1-d2
