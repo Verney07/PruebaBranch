@@ -8,3 +8,5 @@ def greet(nombre):
 
 
 greet("Verney")
+
+print("We will add a new function.")
