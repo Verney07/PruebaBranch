@@ -1,9 +1,10 @@
 """A simple attempt to greet."""
 
 
-def greet():
+def greet(nombre):
     """Code thats print a message."""
-    print("Hello, this is a simple attempt.")
+
+    print(f"Hello {nombre} , this is a simple attempt.")
 
 
-greet()
+greet("Verney")
